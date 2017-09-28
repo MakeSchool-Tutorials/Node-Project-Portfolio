@@ -3,17 +3,17 @@ title: "See All Reviews"
 slug: index-reviews
 ---
 
-We are going to define a single **resource** in this app called a `Review`.
+You are going to define a single **resource** in this app called a `Review`.
 
-A resource is an abstract object that we use to organize data, code, and the features of our app. For example, a `User` resource we can keep track of logging in and out, email and passwords, and people's birthdays. In a blog, we might have an `Article` resource where we would track the titles and bodies of articles and keep track of the code for publishing and sharing them.
+A resource is an abstract object used to organize data, code, and other features of your app. For example, a `User` resource  can keep track of logging in and out, email and passwords, a user's birthdays. In a blog, you might have an `Article` resource that would track the titles and bodies of articles and keep track of the code for publishing and sharing them.
 
 Resources can also be related to each other. For example, articles may have comments; a building resource might have floors, and the floors may have units; a user might have friends (like in Facebook).
 
-All resources have a few actions in common that are called RESTful routes. If there was anything worth memorizing in this tutorial, this is it:
+All resources have actions in common that are called RESTful routes. If there was anything worth memorizing in this tutorial, this is it:
 
 ![Restful routes](assets/RESTful-routes.png)
 
-We're going to start with the index action and then show, and then we'll look at the create, edit, update, and delete.
+You are going to start with the index action and then show, and then we'll look at the create, edit, update, and delete.
 
 # Adding a `/reviews` Route
 
